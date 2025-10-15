@@ -1,0 +1,5 @@
+Configuration settings for device 8
+temperature_threshold=25
+humidity_limit=60%
+device_status=active
+update_interval=30s

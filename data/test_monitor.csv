@@ -1,0 +1,4 @@
+timestamp,file_path,file_size,entropy,event_type,file_extension,label
+1758901083.4339747,iot_test_files/test_monitor/device_001.txt,7,2.5216406363433186,created,.txt,0
+1758901083.435029,iot_test_files/test_monitor/device_001.txt,7,2.5216406363433186,modified,.txt,0
+1758901083.436968,iot_test_files/test_monitor/device_001.txt,7,2.5216406363433186,modified,.txt,0

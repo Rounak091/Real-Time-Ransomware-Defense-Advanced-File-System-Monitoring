@@ -1,0 +1,26 @@
+{
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "your_email@gmail.com",
+    "sender_password": "your_app_password",
+    "recipient_emails": [
+      "admin@yourdomain.com"
+    ]
+  },
+  "webhook": {
+    "enabled": true,
+    "slack_webhook": "https://hooks.slack.com/services/XXX/XXX/XXX",
+    "discord_webhook": "https://discord.com/api/webhooks/XXX/XXX"
+  },
+  "sms": {
+    "enabled": false,
+    "twilio_sid": "your_twilio_sid",
+    "twilio_token": "your_twilio_token",
+    "twilio_number": "+1234567890",
+    "recipient_numbers": [
+      "+1234567890"
+    ]
+  }
+}

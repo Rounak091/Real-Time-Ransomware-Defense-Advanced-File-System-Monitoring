@@ -1,0 +1,11 @@
+{
+  "monitoring_paths": [
+    "iot_test_files/normal",
+    "iot_test_files/attacked"
+  ],
+  "entropy_threshold": 7.5,
+  "access_threshold": 10,
+  "check_interval": 1.0,
+  "max_file_size_mb": 10,
+  "log_level": "INFO"
+}

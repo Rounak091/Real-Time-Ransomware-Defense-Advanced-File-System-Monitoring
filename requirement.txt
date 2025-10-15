@@ -1,0 +1,30 @@
+# IoT Communication
+paho-mqtt==1.6.1
+
+# File System Monitoring
+watchdog==3.0.0
+
+# Machine Learning
+scikit-learn==1.5.0
+joblib==1.4.2
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Security & Utilities
+cryptography==41.0.4
+python-dateutil==2.8.2
+pytz==2023.3
+psutil==5.9.0
+
+# Web Framework
+flask==2.3.3
+
+# Development
+jupyter==1.0.0
+ipython==8.14.0

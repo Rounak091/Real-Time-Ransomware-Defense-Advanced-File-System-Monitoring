@@ -1,0 +1,43 @@
+{
+  "random_forest": {
+    "accuracy": 1.0,
+    "auc_score": 1.0,
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 32.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 9.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 41.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 41.0
+      }
+    }
+  },
+  "svm": {
+    "accuracy": 0.975609756097561,
+    "auc_score": 1.0,
+    "best_params": {
+      "C": 0.1,
+      "gamma": 1,
+      "kernel": "poly"
+    },
+    "best_cv_score": 0.9814814814814814
+  }
+}
