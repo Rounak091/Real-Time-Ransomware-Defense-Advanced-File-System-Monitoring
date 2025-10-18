@@ -1,0 +1,615 @@
+2025-10-18 00:57:56,823 - INFO - Performance monitoring started
+2025-10-18 00:57:56,845 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.14.141:5000
+2025-10-18 00:57:56,845 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 00:57:56,930 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:57:57,717 - INFO - Random Forest ML model loaded successfully - expecting 10 features
+2025-10-18 00:57:57,825 - WARNING - High CPU usage detected: 28.2%
+2025-10-18 00:57:57,825 - INFO - Applying CPU optimization: Reducing feature extraction complexity
+2025-10-18 00:57:57,825 - WARNING - High memory usage detected: 1558.3 MB
+2025-10-18 00:57:57,825 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:02,395 - INFO - File modified: iot_test_files/normal/config_5_1760338301.txt
+2025-10-18 00:58:02,398 - INFO - Event: modified, File: config_5_1760338301.txt, Size: 96 bytes, Entropy: 4.60
+2025-10-18 00:58:03,827 - WARNING - High memory usage detected: 1577.4 MB
+2025-10-18 00:58:03,828 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:07,165 - INFO - File modified: iot_test_files/normal/normal_file_5.txt
+2025-10-18 00:58:07,167 - INFO - Event: modified, File: normal_file_5.txt, Size: 94 bytes, Entropy: 4.67
+2025-10-18 00:58:09,829 - WARNING - High CPU usage detected: 37.9%
+2025-10-18 00:58:09,829 - INFO - Applying CPU optimization: Reducing feature extraction complexity
+2025-10-18 00:58:09,829 - WARNING - High memory usage detected: 1814.7 MB
+2025-10-18 00:58:09,829 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:12,033 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:58:12,618 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:12] "GET / HTTP/1.1" 200 -
+2025-10-18 00:58:12,717 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:12] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-10-18 00:58:12,757 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-18 00:58:12,760 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:12] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:12,802 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:12] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:12,806 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:12] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:12,863 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:12] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:14,401 - INFO - File modified: iot_test_files/normal/config_38_1760338265.txt
+2025-10-18 00:58:14,401 - INFO - Event: modified, File: config_38_1760338265.txt, Size: 96 bytes, Entropy: 4.63
+2025-10-18 00:58:14,760 - INFO - File modified: iot_test_files/normal/normal_file_0.txt
+2025-10-18 00:58:14,761 - INFO - Event: modified, File: normal_file_0.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,761 - INFO - File modified: iot_test_files/normal/normal_file_1.txt
+2025-10-18 00:58:14,761 - INFO - Event: modified, File: normal_file_1.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,761 - INFO - File modified: iot_test_files/normal/normal_file_2.txt
+2025-10-18 00:58:14,761 - INFO - Event: modified, File: normal_file_2.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,761 - INFO - File modified: iot_test_files/normal/normal_file_3.txt
+2025-10-18 00:58:14,761 - INFO - Event: modified, File: normal_file_3.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,761 - INFO - File modified: iot_test_files/normal/normal_file_4.txt
+2025-10-18 00:58:14,762 - INFO - Event: modified, File: normal_file_4.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,762 - INFO - File modified: iot_test_files/normal/normal_file_5.txt
+2025-10-18 00:58:14,762 - INFO - Event: modified, File: normal_file_5.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,762 - INFO - File modified: iot_test_files/normal/normal_file_6.txt
+2025-10-18 00:58:14,763 - INFO - Event: modified, File: normal_file_6.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,763 - INFO - File modified: iot_test_files/normal/normal_file_7.txt
+2025-10-18 00:58:14,763 - INFO - Event: modified, File: normal_file_7.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,763 - INFO - File modified: iot_test_files/normal/normal_file_8.txt
+2025-10-18 00:58:14,763 - INFO - Event: modified, File: normal_file_8.txt, Size: 38 bytes, Entropy: 3.96
+2025-10-18 00:58:14,763 - INFO - File modified: iot_test_files/normal/normal_file_9.txt
+2025-10-18 00:58:14,763 - INFO - Event: modified, File: normal_file_9.txt, Size: 81 bytes, Entropy: 4.87
+2025-10-18 00:58:14,763 - INFO - File modified: iot_test_files/normal/normal_file_10.txt
+2025-10-18 00:58:14,763 - INFO - Event: modified, File: normal_file_10.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,764 - INFO - File modified: iot_test_files/normal/normal_file_11.txt
+2025-10-18 00:58:14,764 - INFO - Event: modified, File: normal_file_11.txt, Size: 39 bytes, Entropy: 3.97
+2025-10-18 00:58:14,765 - INFO - File modified: iot_test_files/normal/normal_file_12.txt
+2025-10-18 00:58:14,766 - INFO - Event: modified, File: normal_file_12.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,767 - INFO - File modified: iot_test_files/normal/normal_file_13.txt
+2025-10-18 00:58:14,767 - INFO - Event: modified, File: normal_file_13.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,770 - INFO - File modified: iot_test_files/normal/normal_file_14.txt
+2025-10-18 00:58:14,771 - INFO - Event: modified, File: normal_file_14.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,774 - INFO - File modified: iot_test_files/normal/normal_file_15.txt
+2025-10-18 00:58:14,775 - INFO - Event: modified, File: normal_file_15.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,777 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,780 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,782 - INFO - File modified: iot_test_files/normal/normal_file_16.txt
+2025-10-18 00:58:14,783 - INFO - Event: modified, File: normal_file_16.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,785 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,789 - INFO - File modified: iot_test_files/normal/normal_file_17.txt
+2025-10-18 00:58:14,789 - INFO - Event: modified, File: normal_file_17.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,791 - INFO - File modified: iot_test_files/normal/normal_file_18.txt
+2025-10-18 00:58:14,793 - INFO - Event: modified, File: normal_file_18.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,798 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,798 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,803 - INFO - File modified: iot_test_files/normal/normal_file_18.txt
+2025-10-18 00:58:14,804 - INFO - Event: modified, File: normal_file_18.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,806 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,806 - INFO - File modified: iot_test_files/normal/normal_file_19.txt
+2025-10-18 00:58:14,810 - INFO - Event: modified, File: normal_file_19.txt, Size: 39 bytes, Entropy: 4.03
+2025-10-18 00:58:14,820 - INFO - File modified: iot_test_files/normal/normal_file_9.txt
+2025-10-18 00:58:14,821 - INFO - Event: modified, File: normal_file_9.txt, Size: 81 bytes, Entropy: 4.87
+2025-10-18 00:58:14,822 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,838 - INFO - File modified: iot_test_files/normal/normal_file_9.txt
+2025-10-18 00:58:14,841 - INFO - Event: modified, File: normal_file_9.txt, Size: 81 bytes, Entropy: 4.87
+2025-10-18 00:58:14,842 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,856 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:14,866 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:14] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:15,833 - WARNING - High CPU usage detected: 29.3%
+2025-10-18 00:58:15,833 - INFO - Applying CPU optimization: Reducing feature extraction complexity
+2025-10-18 00:58:15,834 - WARNING - High memory usage detected: 2216.3 MB
+2025-10-18 00:58:15,834 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:17,336 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:17] "GET / HTTP/1.1" 200 -
+2025-10-18 00:58:17,427 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:17] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-10-18 00:58:17,848 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:17] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:17,949 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:17] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:17,955 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:17] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:17,956 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:18,007 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-18 00:58:18,062 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:18] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:18,076 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:18] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:18,078 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:18] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:18,157 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:18] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:18,560 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:18] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:18,575 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:18] "GET / HTTP/1.1" 200 -
+2025-10-18 00:58:18,611 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:18] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-10-18 00:58:19,040 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:19] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:19,102 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:19] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:19,103 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:19] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:19,143 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:19,240 - INFO - File modified: iot_test_files/normal/log_1760337837_7357.txt
+2025-10-18 00:58:19,242 - INFO - Event: modified, File: log_1760337837_7357.txt, Size: 212 bytes, Entropy: 4.60
+2025-10-18 00:58:19,248 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:19] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:21,835 - WARNING - High memory usage detected: 2261.9 MB
+2025-10-18 00:58:21,835 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:23,194 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:23] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:23,195 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:23] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:23,196 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:23] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:23,297 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:23] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:24,104 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:24,106 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:24,108 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:24,204 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:24,764 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_16.txt.encrypted
+2025-10-18 00:58:24,765 - INFO - Event: modified, File: normal_file_16.txt.encrypted, Size: 39 bytes, Entropy: 5.13
+2025-10-18 00:58:24,767 - INFO - File modified: iot_test_files/normal_encrypted/device_009.txt.encrypted.encrypted
+2025-10-18 00:58:24,768 - INFO - Event: modified, File: device_009.txt.encrypted.encrypted, Size: 0 bytes, Entropy: 0.00
+2025-10-18 00:58:24,770 - INFO - File modified: iot_test_files/normal_encrypted/device_009.txt.encrypted.encrypted
+2025-10-18 00:58:24,772 - INFO - Event: modified, File: device_009.txt.encrypted.encrypted, Size: 120 bytes, Entropy: 6.57
+2025-10-18 00:58:24,777 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,779 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,787 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,799 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,805 - INFO - File modified: iot_test_files/normal_encrypted/system_log_14.log.encrypted
+2025-10-18 00:58:24,812 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,818 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,824 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,829 - INFO - Event: modified, File: system_log_14.log.encrypted, Size: 126 bytes, Entropy: 6.36
+2025-10-18 00:58:24,836 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,841 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,845 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,848 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,854 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,858 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338571_6325.txt.encrypted
+2025-10-18 00:58:24,859 - INFO - Event: modified, File: log_1760338571_6325.txt.encrypted, Size: 113 bytes, Entropy: 6.44
+2025-10-18 00:58:24,861 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,863 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,866 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,867 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,871 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,875 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338175_8534.txt.encrypted
+2025-10-18 00:58:24,877 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,879 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,881 - INFO - Event: modified, File: log_1760338175_8534.txt.encrypted, Size: 113 bytes, Entropy: 6.46
+2025-10-18 00:58:24,883 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,886 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,886 - INFO - File modified: iot_test_files/normal_encrypted/config_12_1760338529.txt.encrypted
+2025-10-18 00:58:24,889 - INFO - Event: modified, File: config_12_1760338529.txt.encrypted, Size: 58 bytes, Entropy: 5.53
+2025-10-18 00:58:24,891 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,891 - INFO - File modified: iot_test_files/normal_encrypted/log_1760337105_7414.txt.encrypted
+2025-10-18 00:58:24,892 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,894 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,897 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,902 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,905 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,906 - INFO - Event: modified, File: log_1760337105_7414.txt.encrypted, Size: 169 bytes, Entropy: 6.78
+2025-10-18 00:58:24,908 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,910 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,914 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,918 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,922 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,924 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,925 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,927 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,932 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,936 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,939 - INFO - File modified: iot_test_files/normal_encrypted/backup_data_19.dat.encrypted
+2025-10-18 00:58:24,941 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,942 - INFO - Event: modified, File: backup_data_19.dat.encrypted, Size: 244 bytes, Entropy: 7.16
+2025-10-18 00:58:24,943 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,947 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,949 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,950 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,956 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,957 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,957 - INFO - File modified: iot_test_files/normal_encrypted/config_38_1760338265.txt.encrypted
+2025-10-18 00:58:24,960 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,961 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,967 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,971 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,972 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,975 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,975 - INFO - Event: modified, File: config_38_1760338265.txt.encrypted, Size: 96 bytes, Entropy: 6.27
+2025-10-18 00:58:24,976 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,978 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,980 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,982 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,987 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,989 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,993 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:24,993 - INFO - File modified: iot_test_files/normal_encrypted/sensor_data_17.json.encrypted
+2025-10-18 00:58:24,998 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:24] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,001 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,002 - INFO - Event: modified, File: sensor_data_17.json.encrypted, Size: 56 bytes, Entropy: 5.58
+2025-10-18 00:58:25,003 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,004 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,005 - INFO - File modified: iot_test_files/normal_encrypted/log_1760337837_7357.txt.encrypted
+2025-10-18 00:58:25,007 - INFO - Event: modified, File: log_1760337837_7357.txt.encrypted, Size: 212 bytes, Entropy: 6.87
+2025-10-18 00:58:25,008 - INFO - File modified: iot_test_files/normal_encrypted/config_35_1760338205.txt.encrypted
+2025-10-18 00:58:25,009 - INFO - Event: modified, File: config_35_1760338205.txt.encrypted, Size: 96 bytes, Entropy: 6.19
+2025-10-18 00:58:25,011 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,013 - INFO - File modified: iot_test_files/normal_encrypted/config_43_1760336943.txt.encrypted
+2025-10-18 00:58:25,016 - INFO - Event: modified, File: config_43_1760336943.txt.encrypted, Size: 96 bytes, Entropy: 6.19
+2025-10-18 00:58:25,017 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,020 - INFO - File modified: iot_test_files/normal_encrypted/config_4_1760337207.txt.encrypted
+2025-10-18 00:58:25,021 - INFO - Event: modified, File: config_4_1760337207.txt.encrypted, Size: 58 bytes, Entropy: 5.64
+2025-10-18 00:58:25,022 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_12.txt.encrypted
+2025-10-18 00:58:25,024 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,026 - INFO - Event: modified, File: normal_file_12.txt.encrypted, Size: 39 bytes, Entropy: 5.18
+2025-10-18 00:58:25,028 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,031 - INFO - File modified: iot_test_files/normal_encrypted/config_5_1760338301.txt.encrypted
+2025-10-18 00:58:25,033 - INFO - Event: modified, File: config_5_1760338301.txt.encrypted, Size: 96 bytes, Entropy: 6.19
+2025-10-18 00:58:25,034 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,038 - INFO - File modified: iot_test_files/normal_encrypted/config_device_0.cfg.encrypted
+2025-10-18 00:58:25,039 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,042 - INFO - Event: modified, File: config_device_0.cfg.encrypted, Size: 430 bytes, Entropy: 7.50
+2025-10-18 00:58:25,043 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,050 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,051 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_0.txt.encrypted
+2025-10-18 00:58:25,054 - INFO - Event: modified, File: normal_file_0.txt.encrypted, Size: 38 bytes, Entropy: 5.09
+2025-10-18 00:58:25,055 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,058 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_8.txt.encrypted
+2025-10-18 00:58:25,059 - INFO - Event: modified, File: normal_file_8.txt.encrypted, Size: 38 bytes, Entropy: 4.86
+2025-10-18 00:58:25,059 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,064 - INFO - File modified: iot_test_files/normal_encrypted/device_006.txt.encrypted.encrypted
+2025-10-18 00:58:25,064 - INFO - Event: modified, File: device_006.txt.encrypted.encrypted, Size: 120 bytes, Entropy: 6.32
+2025-10-18 00:58:25,066 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,071 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_18.txt.encrypted
+2025-10-18 00:58:25,073 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,074 - INFO - Event: modified, File: normal_file_18.txt.encrypted, Size: 39 bytes, Entropy: 4.89
+2025-10-18 00:58:25,076 - INFO - File modified: iot_test_files/normal_encrypted/log_1760337384_4241.txt.encrypted
+2025-10-18 00:58:25,080 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,083 - INFO - Event: modified, File: log_1760337384_4241.txt.encrypted, Size: 169 bytes, Entropy: 6.80
+2025-10-18 00:58:25,085 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,090 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,092 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338151_4998.txt.encrypted
+2025-10-18 00:58:25,092 - INFO - Event: modified, File: log_1760338151_4998.txt.encrypted, Size: 156 bytes, Entropy: 6.75
+2025-10-18 00:58:25,096 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,102 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,104 - INFO - File modified: iot_test_files/normal_encrypted/config_14_1760338637.txt.encrypted
+2025-10-18 00:58:25,107 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,108 - INFO - Event: modified, File: config_14_1760338637.txt.encrypted, Size: 58 bytes, Entropy: 5.51
+2025-10-18 00:58:25,109 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_5.txt.encrypted
+2025-10-18 00:58:25,110 - INFO - Event: modified, File: normal_file_5.txt.encrypted, Size: 38 bytes, Entropy: 5.14
+2025-10-18 00:58:25,115 - INFO - File modified: iot_test_files/normal_encrypted/config_13_1760337219.txt.encrypted
+2025-10-18 00:58:25,117 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,117 - INFO - Event: modified, File: config_13_1760337219.txt.encrypted, Size: 58 bytes, Entropy: 5.47
+2025-10-18 00:58:25,119 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,122 - INFO - File modified: iot_test_files/normal_encrypted/device_001.txt.encrypted.encrypted
+2025-10-18 00:58:25,122 - INFO - Event: modified, File: device_001.txt.encrypted.encrypted, Size: 120 bytes, Entropy: 6.47
+2025-10-18 00:58:25,123 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,130 - INFO - File modified: iot_test_files/normal_encrypted/log_1760337347_4018.txt.encrypted
+2025-10-18 00:58:25,131 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,133 - INFO - Event: modified, File: log_1760337347_4018.txt.encrypted, Size: 113 bytes, Entropy: 6.51
+2025-10-18 00:58:25,137 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,140 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_10.txt.encrypted
+2025-10-18 00:58:25,141 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,142 - INFO - Event: modified, File: normal_file_10.txt.encrypted, Size: 39 bytes, Entropy: 5.08
+2025-10-18 00:58:25,149 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,150 - INFO - File modified: iot_test_files/normal_encrypted/backup_data_15.dat.encrypted
+2025-10-18 00:58:25,155 - INFO - Event: modified, File: backup_data_15.dat.encrypted, Size: 257 bytes, Entropy: 7.21
+2025-10-18 00:58:25,156 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,161 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338441_4046.txt.encrypted
+2025-10-18 00:58:25,165 - INFO - Event: modified, File: log_1760338441_4046.txt.encrypted, Size: 113 bytes, Entropy: 6.36
+2025-10-18 00:58:25,166 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,167 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,173 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_17.txt.encrypted
+2025-10-18 00:58:25,174 - INFO - Event: modified, File: normal_file_17.txt.encrypted, Size: 39 bytes, Entropy: 5.18
+2025-10-18 00:58:25,176 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,179 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,181 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_17.txt.encrypted
+2025-10-18 00:58:25,185 - INFO - Event: modified, File: normal_file_17.txt.encrypted, Size: 39 bytes, Entropy: 5.18
+2025-10-18 00:58:25,186 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,188 - INFO - File modified: iot_test_files/normal_encrypted/config_42_1760338565.txt.encrypted
+2025-10-18 00:58:25,189 - INFO - Event: modified, File: config_42_1760338565.txt.encrypted, Size: 96 bytes, Entropy: 6.12
+2025-10-18 00:58:25,191 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,194 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338453_9813.txt.encrypted
+2025-10-18 00:58:25,196 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,198 - INFO - Event: modified, File: log_1760338453_9813.txt.encrypted, Size: 113 bytes, Entropy: 6.47
+2025-10-18 00:58:25,201 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,205 - INFO - File modified: iot_test_files/normal_encrypted/device_004.txt.encrypted.encrypted
+2025-10-18 00:58:25,206 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,206 - INFO - Event: modified, File: device_004.txt.encrypted.encrypted, Size: 120 bytes, Entropy: 6.48
+2025-10-18 00:58:25,209 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,215 - INFO - File modified: iot_test_files/normal_encrypted/device_003.txt.encrypted.encrypted
+2025-10-18 00:58:25,217 - INFO - Event: modified, File: device_003.txt.encrypted.encrypted, Size: 120 bytes, Entropy: 6.58
+2025-10-18 00:58:25,219 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,221 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,227 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338644_8734.txt.encrypted
+2025-10-18 00:58:25,230 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,230 - INFO - Event: modified, File: log_1760338644_8734.txt.encrypted, Size: 113 bytes, Entropy: 6.40
+2025-10-18 00:58:25,235 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,239 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,241 - INFO - File modified: iot_test_files/normal_encrypted/log_1760337420_7598.txt.encrypted
+2025-10-18 00:58:25,243 - INFO - Event: modified, File: log_1760337420_7598.txt.encrypted, Size: 113 bytes, Entropy: 6.33
+2025-10-18 00:58:25,244 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,251 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338417_8571.txt.encrypted
+2025-10-18 00:58:25,253 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,254 - INFO - Event: modified, File: log_1760338417_8571.txt.encrypted, Size: 113 bytes, Entropy: 6.40
+2025-10-18 00:58:25,256 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,261 - INFO - File modified: iot_test_files/normal_encrypted/log_1760337909_7971.txt.encrypted
+2025-10-18 00:58:25,265 - INFO - Event: modified, File: log_1760337909_7971.txt.encrypted, Size: 113 bytes, Entropy: 6.41
+2025-10-18 00:58:25,267 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,268 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,275 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,276 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338429_6970.txt.encrypted
+2025-10-18 00:58:25,282 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,284 - INFO - Event: modified, File: log_1760338429_6970.txt.encrypted, Size: 113 bytes, Entropy: 6.44
+2025-10-18 00:58:25,287 - INFO - File modified: iot_test_files/normal_encrypted/config_11_1760338577.txt.encrypted
+2025-10-18 00:58:25,289 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,290 - INFO - Event: modified, File: config_11_1760338577.txt.encrypted, Size: 58 bytes, Entropy: 5.60
+2025-10-18 00:58:25,292 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_19.txt.encrypted
+2025-10-18 00:58:25,293 - INFO - Event: modified, File: normal_file_19.txt.encrypted, Size: 39 bytes, Entropy: 5.23
+2025-10-18 00:58:25,294 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,298 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_15.txt.encrypted
+2025-10-18 00:58:25,301 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,304 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,304 - INFO - Event: modified, File: normal_file_15.txt.encrypted, Size: 39 bytes, Entropy: 5.18
+2025-10-18 00:58:25,306 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_11.txt.encrypted
+2025-10-18 00:58:25,307 - INFO - Event: modified, File: normal_file_11.txt.encrypted, Size: 39 bytes, Entropy: 4.98
+2025-10-18 00:58:25,309 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,311 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_4.txt.encrypted
+2025-10-18 00:58:25,313 - INFO - Event: modified, File: normal_file_4.txt.encrypted, Size: 38 bytes, Entropy: 5.25
+2025-10-18 00:58:25,314 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,318 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338465_6490.txt.encrypted
+2025-10-18 00:58:25,318 - INFO - Event: modified, File: log_1760338465_6490.txt.encrypted, Size: 113 bytes, Entropy: 6.38
+2025-10-18 00:58:25,321 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,326 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,326 - INFO - File modified: iot_test_files/normal_encrypted/config_13_1760338181.txt.encrypted
+2025-10-18 00:58:25,328 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,330 - INFO - Event: modified, File: config_13_1760338181.txt.encrypted, Size: 58 bytes, Entropy: 5.69
+2025-10-18 00:58:25,334 - INFO - File modified: iot_test_files/normal_encrypted/device_005.txt.encrypted.encrypted
+2025-10-18 00:58:25,335 - INFO - Event: modified, File: device_005.txt.encrypted.encrypted, Size: 176 bytes, Entropy: 6.79
+2025-10-18 00:58:25,339 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,341 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_7.txt.encrypted
+2025-10-18 00:58:25,341 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,342 - INFO - Event: modified, File: normal_file_7.txt.encrypted, Size: 38 bytes, Entropy: 5.09
+2025-10-18 00:58:25,345 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,348 - INFO - File modified: iot_test_files/normal_encrypted/log_1760338692_4153.txt.encrypted
+2025-10-18 00:58:25,349 - INFO - Event: modified, File: log_1760338692_4153.txt.encrypted, Size: 113 bytes, Entropy: 6.36
+2025-10-18 00:58:25,355 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,357 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,360 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_6.txt.encrypted
+2025-10-18 00:58:25,360 - INFO - Event: modified, File: normal_file_6.txt.encrypted, Size: 38 bytes, Entropy: 5.20
+2025-10-18 00:58:25,364 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,367 - INFO - File modified: iot_test_files/normal_encrypted/normal_file_2.txt.encrypted
+2025-10-18 00:58:25,368 - INFO - Event: modified, File: normal_file_2.txt.encrypted, Size: 38 bytes, Entropy: 5.20
+2025-10-18 00:58:25,370 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,372 - INFO - File modified: iot_test_files/normal_encrypted/config_18_1760337963.txt.encrypted
+2025-10-18 00:58:25,374 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,374 - INFO - Event: modified, File: config_18_1760337963.txt.encrypted, Size: 96 bytes, Entropy: 6.16
+2025-10-18 00:58:25,378 - INFO - File modified: iot_test_files/normal_encrypted/config_18_1760337963.txt.encrypted
+2025-10-18 00:58:25,382 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,384 - INFO - Event: modified, File: config_18_1760337963.txt.encrypted, Size: 96 bytes, Entropy: 6.16
+2025-10-18 00:58:25,386 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,390 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,391 - INFO - File modified: iot_test_files/normal_encrypted/READ_ME_FOR_DECRYPT.txt
+2025-10-18 00:58:25,393 - INFO - Event: modified, File: READ_ME_FOR_DECRYPT.txt, Size: 194 bytes, Entropy: 5.06
+2025-10-18 00:58:25,394 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:25,402 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:25] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:26,403 - INFO - File created: iot_test_files/normal/config_36_1760763506.txt
+2025-10-18 00:58:26,404 - INFO - Event: created, File: config_36_1760763506.txt, Size: 58 bytes, Entropy: 4.45
+2025-10-18 00:58:26,405 - INFO - File modified: iot_test_files/normal/config_36_1760763506.txt
+2025-10-18 00:58:26,406 - INFO - Event: modified, File: config_36_1760763506.txt, Size: 58 bytes, Entropy: 4.45
+2025-10-18 00:58:26,412 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:26] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:26,415 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:26] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:27,134 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:58:27,837 - WARNING - High memory usage detected: 2272.9 MB
+2025-10-18 00:58:27,837 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:28,183 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:28] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:28,184 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:28] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:28,188 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:28] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:28,283 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:28] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:28,420 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:28] "GET / HTTP/1.1" 200 -
+2025-10-18 00:58:28,462 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:28] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-10-18 00:58:28,933 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:28] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:29,014 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:29] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:29,018 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:29] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:29,038 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:31,329 - INFO - File deleted: iot_test_files/normal/config_35_1760338205.txt
+2025-10-18 00:58:31,330 - INFO - Event: deleted, File: config_35_1760338205.txt, Size: 0 bytes, Entropy: 0.00
+2025-10-18 00:58:33,244 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:33] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:33,247 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:33] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:33,249 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:33] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:33,345 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:33] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:33,839 - WARNING - High memory usage detected: 2223.7 MB
+2025-10-18 00:58:33,839 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:34,016 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:34] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:34,020 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:34] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:34,024 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:34] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:34,119 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:34,909 - INFO - File modified: iot_test_files/normal/device_001.txt.encrypted
+2025-10-18 00:58:34,911 - INFO - Event: modified, File: device_001.txt.encrypted, Size: 176 bytes, Entropy: 6.48
+2025-10-18 00:58:34,923 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:34] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:34,929 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:34] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:38,300 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:38,303 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:38,305 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:38,344 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET / HTTP/1.1" 200 -
+2025-10-18 00:58:38,385 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-10-18 00:58:38,404 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:38,809 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:38,909 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:38,910 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:38,915 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:38] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:39,015 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:39] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:39,031 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:39] "GET / HTTP/1.1" 200 -
+2025-10-18 00:58:39,057 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:39] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-10-18 00:58:39,082 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:39] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:39,103 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:39] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:39,105 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:39] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:39,183 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:39,840 - WARNING - High CPU usage detected: 27.2%
+2025-10-18 00:58:39,840 - INFO - Applying CPU optimization: Reducing feature extraction complexity
+2025-10-18 00:58:39,841 - WARNING - High memory usage detected: 2230.6 MB
+2025-10-18 00:58:39,841 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:42,236 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:58:42,501 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:42] "POST /api/add_alert HTTP/1.1" 200 -
+2025-10-18 00:58:43,332 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:43] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:43,333 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:43] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:43,338 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:43] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:43,431 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:43] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:43,507 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:43] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:45,842 - WARNING - High memory usage detected: 2031.8 MB
+2025-10-18 00:58:45,842 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:48,576 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:48] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:48,584 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:48] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:48,588 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:48] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:48,683 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:48] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:50,403 - INFO - File modified: iot_test_files/normal/config_12_1760338529.txt
+2025-10-18 00:58:50,403 - INFO - Event: modified, File: config_12_1760338529.txt, Size: 96 bytes, Entropy: 4.57
+2025-10-18 00:58:51,843 - WARNING - High memory usage detected: 2014.8 MB
+2025-10-18 00:58:51,844 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:53,673 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:53] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:53,676 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:53] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:53,686 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:53] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:53,770 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:53] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:55,505 - INFO - File created: iot_test_files/normal/log_1760763535_4485.txt
+2025-10-18 00:58:55,507 - INFO - Event: created, File: log_1760763535_4485.txt, Size: 113 bytes, Entropy: 3.93
+2025-10-18 00:58:55,507 - INFO - File modified: iot_test_files/normal/log_1760763535_4485.txt
+2025-10-18 00:58:55,508 - INFO - Event: modified, File: log_1760763535_4485.txt, Size: 113 bytes, Entropy: 3.93
+2025-10-18 00:58:57,337 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:58:57,845 - WARNING - High memory usage detected: 1913.8 MB
+2025-10-18 00:58:57,846 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:58:58,891 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:58] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:58,894 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:58] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:58,899 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:58] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:58,988 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:58] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:58:59,588 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:59] "GET / HTTP/1.1" 200 -
+2025-10-18 00:58:59,634 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:59] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-10-18 00:58:59,663 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:59] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:58:59,700 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:59] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:58:59,704 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:59] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:58:59,765 - INFO - 127.0.0.1 - - [18/Oct/2025 00:58:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:02,411 - INFO - File modified: iot_test_files/normal/config_device_8.cfg
+2025-10-18 00:59:02,414 - INFO - Event: modified, File: config_device_8.cfg, Size: 263 bytes, Entropy: 4.76
+2025-10-18 00:59:03,850 - WARNING - High memory usage detected: 1911.3 MB
+2025-10-18 00:59:03,851 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:04,966 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:04] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:04,970 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:04] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:04,976 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:04] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:05,065 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:05] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:07,601 - INFO - File created: iot_test_files/normal/log_1760763547_5604.txt
+2025-10-18 00:59:07,603 - INFO - Event: created, File: log_1760763547_5604.txt, Size: 113 bytes, Entropy: 3.98
+2025-10-18 00:59:07,603 - INFO - File modified: iot_test_files/normal/log_1760763547_5604.txt
+2025-10-18 00:59:07,604 - INFO - Event: modified, File: log_1760763547_5604.txt, Size: 113 bytes, Entropy: 3.98
+2025-10-18 00:59:09,853 - WARNING - High memory usage detected: 1920.8 MB
+2025-10-18 00:59:09,853 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:10,169 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:10] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:10,172 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:10] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:10,177 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:10] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:10,268 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:12,440 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:59:14,411 - INFO - File modified: iot_test_files/normal/config_11_1760338577.txt
+2025-10-18 00:59:14,411 - INFO - Event: modified, File: config_11_1760338577.txt, Size: 96 bytes, Entropy: 4.60
+2025-10-18 00:59:15,236 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:15] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:15,238 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:15] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:15,246 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:15] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:15,336 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:15] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:15,855 - WARNING - High memory usage detected: 1920.2 MB
+2025-10-18 00:59:15,856 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:19,713 - INFO - File modified: iot_test_files/normal/normal_file_8.txt
+2025-10-18 00:59:19,714 - INFO - Event: modified, File: normal_file_8.txt, Size: 94 bytes, Entropy: 4.70
+2025-10-18 00:59:20,287 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:20] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:20,289 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:20] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:20,293 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:20] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:20,389 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:21,857 - WARNING - High memory usage detected: 1919.4 MB
+2025-10-18 00:59:21,857 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:25,436 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:25] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:25,440 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:25] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:25,443 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:25] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:25,539 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:25] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:26,411 - INFO - File modified: iot_test_files/normal/config_12_1760338529.txt
+2025-10-18 00:59:26,411 - INFO - Event: modified, File: config_12_1760338529.txt, Size: 134 bytes, Entropy: 4.55
+2025-10-18 00:59:27,543 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:59:27,859 - WARNING - High memory usage detected: 1911.4 MB
+2025-10-18 00:59:27,859 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:30,109 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:30] "GET / HTTP/1.1" 200 -
+2025-10-18 00:59:30,168 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:30] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-10-18 00:59:30,202 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:30] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:30,234 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:30] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:30,236 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:30] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:30,303 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:33,862 - WARNING - High memory usage detected: 1925.8 MB
+2025-10-18 00:59:33,862 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:35,238 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:35] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:35,239 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:35] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:35,242 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:35] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:35,339 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:35] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:38,417 - INFO - File modified: iot_test_files/normal/config_29_1760338253.txt
+2025-10-18 00:59:38,419 - INFO - Event: modified, File: config_29_1760338253.txt, Size: 96 bytes, Entropy: 4.59
+2025-10-18 00:59:39,864 - WARNING - High memory usage detected: 1917.4 MB
+2025-10-18 00:59:39,864 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:40,236 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:40] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:40,240 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:40] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:40,244 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:40] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:40,335 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:42,476 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:42] "POST /api/trigger_demo HTTP/1.1" 200 -
+2025-10-18 00:59:42,646 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:59:43,014 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:43] "POST /api/trigger_demo HTTP/1.1" 200 -
+2025-10-18 00:59:43,536 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:43] "GET / HTTP/1.1" 200 -
+2025-10-18 00:59:43,587 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:43] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-10-18 00:59:43,624 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:43] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:43,657 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:43] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:43,659 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:43] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:43,725 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:43] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:43,838 - INFO - File created: iot_test_files/normal/log_1760763583_2214.txt
+2025-10-18 00:59:43,839 - INFO - Event: created, File: log_1760763583_2214.txt, Size: 113 bytes, Entropy: 4.04
+2025-10-18 00:59:43,840 - INFO - File modified: iot_test_files/normal/log_1760763583_2214.txt
+2025-10-18 00:59:43,841 - INFO - Event: modified, File: log_1760763583_2214.txt, Size: 113 bytes, Entropy: 4.04
+2025-10-18 00:59:45,866 - WARNING - High memory usage detected: 1928.8 MB
+2025-10-18 00:59:45,866 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:48,813 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:48] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:48,815 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:48] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:48,824 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:48] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:48,908 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:48] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:50,419 - INFO - File modified: iot_test_files/normal/config_12_1760338529.txt
+2025-10-18 00:59:50,420 - INFO - Event: modified, File: config_12_1760338529.txt, Size: 172 bytes, Entropy: 4.50
+2025-10-18 00:59:51,867 - WARNING - High memory usage detected: 1918.3 MB
+2025-10-18 00:59:51,868 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:53,815 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:53] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:53,818 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:53] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:53,823 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:53] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:53,913 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:53] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 00:59:56,022 - INFO - File deleted: iot_test_files/normal/normal_file_12.txt
+2025-10-18 00:59:56,022 - INFO - Event: deleted, File: normal_file_12.txt, Size: 0 bytes, Entropy: 0.00
+2025-10-18 00:59:57,748 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 00:59:57,869 - WARNING - High memory usage detected: 1906.9 MB
+2025-10-18 00:59:57,869 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 00:59:58,819 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:58] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 00:59:58,821 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:58] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 00:59:58,825 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:58] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 00:59:58,918 - INFO - 127.0.0.1 - - [18/Oct/2025 00:59:58] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 01:00:02,420 - INFO - File created: iot_test_files/normal/config_1_1760763602.txt
+2025-10-18 01:00:02,421 - INFO - Event: created, File: config_1_1760763602.txt, Size: 58 bytes, Entropy: 4.39
+2025-10-18 01:00:02,421 - INFO - File modified: iot_test_files/normal/config_1_1760763602.txt
+2025-10-18 01:00:02,421 - INFO - Event: modified, File: config_1_1760763602.txt, Size: 58 bytes, Entropy: 4.39
+2025-10-18 01:00:03,822 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:03] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 01:00:03,824 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:03] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 01:00:03,829 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:03] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 01:00:03,871 - WARNING - High memory usage detected: 1921.0 MB
+2025-10-18 01:00:03,871 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 01:00:03,923 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:03] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 01:00:09,030 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:09] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 01:00:09,032 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:09] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 01:00:09,034 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:09] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 01:00:09,130 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 01:00:09,873 - WARNING - High memory usage detected: 1916.0 MB
+2025-10-18 01:00:09,874 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 01:00:12,852 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 01:00:14,046 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:14] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 01:00:14,048 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:14] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 01:00:14,050 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:14] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 01:00:14,150 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 01:00:15,875 - WARNING - High memory usage detected: 1916.4 MB
+2025-10-18 01:00:15,875 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 01:00:19,185 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:19] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 01:00:19,187 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:19] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 01:00:19,192 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:19] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 01:00:19,284 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 01:00:20,146 - INFO - File modified: iot_test_files/normal/normal_file_16.txt
+2025-10-18 01:00:20,147 - INFO - Event: modified, File: normal_file_16.txt, Size: 95 bytes, Entropy: 4.66
+2025-10-18 01:00:21,878 - WARNING - High memory usage detected: 1927.5 MB
+2025-10-18 01:00:21,878 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 01:00:24,489 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:24] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 01:00:24,493 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:24] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 01:00:24,500 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:24] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 01:00:24,586 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 01:00:26,427 - INFO - File modified: iot_test_files/normal/config_24_1760338085.txt
+2025-10-18 01:00:26,429 - INFO - Event: modified, File: config_24_1760338085.txt, Size: 172 bytes, Entropy: 4.47
+2025-10-18 01:00:27,881 - WARNING - High memory usage detected: 1923.2 MB
+2025-10-18 01:00:27,881 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 01:00:27,954 - WARNING - Low throughput: 10 ops/sec
+2025-10-18 01:00:29,485 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:29] "GET /api/alerts HTTP/1.1" 200 -
+2025-10-18 01:00:29,489 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:29] "GET /api/performance HTTP/1.1" 200 -
+2025-10-18 01:00:29,493 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:29] "GET /api/detection_stats HTTP/1.1" 200 -
+2025-10-18 01:00:29,587 - INFO - 127.0.0.1 - - [18/Oct/2025 01:00:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-10-18 01:00:32,275 - INFO - File deleted: iot_test_files/normal/config_0_1760338649.txt
+2025-10-18 01:00:32,276 - INFO - Event: deleted, File: config_0_1760338649.txt, Size: 0 bytes, Entropy: 0.00
+2025-10-18 01:00:33,883 - WARNING - High memory usage detected: 1916.3 MB
+2025-10-18 01:00:33,884 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 01:00:39,886 - WARNING - High memory usage detected: 1397.0 MB
+2025-10-18 01:00:39,886 - INFO - Applying memory optimization: Clearing feature cache
+2025-10-18 01:00:43,057 - WARNING - Low throughput: 10 ops/sec

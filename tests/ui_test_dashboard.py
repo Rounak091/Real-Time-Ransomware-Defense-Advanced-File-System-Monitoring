@@ -44,7 +44,7 @@ class TestDashboardUI:
         page.goto(self.BASE_URL)
 
         # Wait for alerts to load
-        page.wait_for_timeout(9000)
+        page.wait_for_timeout(2000)
 
         # Check if alert is displayed
         alerts_list = page.locator("#alertsList")
@@ -61,7 +61,7 @@ class TestDashboardUI:
     def test_alert_details(self, page: Page):
         """Test that alert details are displayed correctly"""
         page.goto(self.BASE_URL)
-        page.wait_for_timeout(9000)
+        page.wait_for_timeout(2000)
 
         alert_items = page.locator(".alert-item")
         if alert_items.count() > 0:
@@ -89,7 +89,7 @@ class TestDashboardUI:
 
         # Refresh the page
         page.reload()
-        page.wait_for_timeout(9000)
+        page.wait_for_timeout(2000)
 
         # Check that new alert appears
         final_alert_count = page.locator(".alert-item").count()
