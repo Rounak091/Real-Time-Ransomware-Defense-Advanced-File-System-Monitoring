@@ -14,8 +14,8 @@ class PerformanceOptimizer:
             'throughput': []
         }
         self.optimization_thresholds = {
-            'max_cpu': 80.0,
-            'max_memory': 500,  # MB
+            'max_cpu': 20.0,  # Reduced from 80% to 20%
+            'max_memory': 300,  # Reduced from 500MB to 300MB
             'max_detection_time': 100,  # ms
             'min_throughput': 50  # operations/second
         }

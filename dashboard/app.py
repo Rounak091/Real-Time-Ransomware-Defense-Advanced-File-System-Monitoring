@@ -11,11 +11,12 @@ import time
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from monitor.live_detector import LiveRansomwareDetector
+from monitor.performance_optimizer import PerformanceOptimizer
 from watchdog.observers import Observer
 
 app = Flask(__name__)
 
-# Store alerts and metrics
+# Store alerts and metrics (optimized for memory)
 alerts = []
 system_metrics = {
     'cpu_usage': [],
@@ -33,25 +34,25 @@ class DashboardData:
             'recent_detections': 0,
             'accuracy': 0.0
         }
-    
+
     def add_alert(self, alert_data):
         alert_data['timestamp'] = datetime.now().isoformat()
         alert_data['id'] = len(self.alert_history) + 1
         self.alert_history.append(alert_data)
-        
-        # Keep only last 50 alerts
-        if len(self.alert_history) > 50:
-            self.alert_history = self.alert_history[-50:]
-    
+
+        # Keep only last 20 alerts (reduced from 50 for memory optimization)
+        if len(self.alert_history) > 20:
+            self.alert_history = self.alert_history[-20:]
+
     def update_metrics(self, metrics):
         self.performance_data.append({
             'timestamp': datetime.now().isoformat(),
             **metrics
         })
-        
-        # Keep only last 100 data points
-        if len(self.performance_data) > 100:
-            self.performance_data = self.performance_data[-100:]
+
+        # Keep only last 50 data points (reduced from 100 for memory optimization)
+        if len(self.performance_data) > 50:
+            self.performance_data = self.performance_data[-50:]
 
 dashboard_data = DashboardData()
 
@@ -112,10 +113,10 @@ def get_metrics():
     false_positives = detection_stats['false_positives']
     detection_accuracy = 96.0 if total_detections > 0 else 95.0  # Default high accuracy
 
-    # Get current system metrics (simulated for now, could be enhanced with psutil)
+    # Get current system metrics (optimized for performance)
     import psutil
     try:
-        cpu_usage = psutil.cpu_percent(interval=1)
+        cpu_usage = psutil.cpu_percent(interval=0.1)  # Reduced from 1s to 0.1s for lower CPU usage
         memory_usage = psutil.virtual_memory().percent
     except ImportError:
         # Fallback if psutil not available
@@ -187,22 +188,48 @@ def add_alert():
         return jsonify({'error': str(e)}), 500
 
 def background_metrics_collector():
-    """Background thread to collect system metrics"""
+    """Background thread to collect system metrics (optimized for performance)"""
     while True:
         try:
-            # Simulate metric collection
-            metrics = {
-                'cpu': 10 + (time.time() % 10),  # Simulate varying CPU
-                'memory': 20 + (time.time() % 5),
-                'detections': len([a for a in dashboard_data.alert_history 
-                                 if datetime.fromisoformat(a['timestamp']) > datetime.now() - timedelta(minutes=5)])
-            }
+            # Collect real system metrics with optimization
+            import psutil
+            try:
+                cpu_percent = psutil.cpu_percent(interval=0.1)  # Reduced interval for lower CPU usage
+                memory_info = psutil.virtual_memory()
+                memory_mb = memory_info.used / 1024 / 1024
+
+                # Check if we need to apply optimizations
+                if cpu_percent > 15.0 or memory_mb > 250:  # Lower thresholds for proactive optimization
+                    print(f"⚠️  High resource usage detected: CPU {cpu_percent:.1f}%, Memory {memory_mb:.1f}MB")
+                    # Trigger performance optimization
+                    if hasattr(performance_optimizer, 'add_detection_metrics'):
+                        performance_optimizer.add_detection_metrics(50, 10)  # Simulate optimization trigger
+
+                metrics = {
+                    'cpu': cpu_percent,
+                    'memory': memory_mb,
+                    'detections': len([a for a in dashboard_data.alert_history
+                                     if datetime.fromisoformat(a['timestamp']) > datetime.now() - timedelta(minutes=5)])
+                }
+            except ImportError:
+                # Fallback if psutil not available
+                metrics = {
+                    'cpu': 12.5,
+                    'memory': 150.0,
+                    'detections': len([a for a in dashboard_data.alert_history
+                                     if datetime.fromisoformat(a['timestamp']) > datetime.now() - timedelta(minutes=5)])
+                }
+
             dashboard_data.update_metrics(metrics)
         except Exception as e:
             print(f"Metrics collection error: {e}")
-        time.sleep(5)
+        time.sleep(15)  # Increased from 5s to 15s for lower CPU usage
 
 if __name__ == '__main__':
+    # Initialize performance optimizer
+    performance_optimizer = PerformanceOptimizer()
+    performance_optimizer.start_monitoring()
+
     # Start ransomware monitoring in background
     monitoring_thread = threading.Thread(target=start_ransomware_monitoring, daemon=True)
     monitoring_thread.start()
@@ -213,7 +240,7 @@ if __name__ == '__main__':
 
     try:
         print("\n" + "="*60)
-        print("🚀 IoT Ransomware Detection Dashboard Starting...")
+        print("🚀 IoT Ransomware Detection Dashboard Starting (Optimized)...")
         print("="*60)
         print("Features:")
         print("  • Real-time file monitoring for ransomware anomalies")
@@ -221,9 +248,16 @@ if __name__ == '__main__':
         print("  • Web dashboard with live alerts")
         print("  • External alerting (email/webhooks/SMS)")
         print("  • Performance metrics and statistics")
+        print("  • Automatic performance optimization")
+        print("="*60)
+        print("Performance Optimizations:")
+        print("  • CPU usage target: <20%")
+        print("  • Memory usage target: <30%")
+        print("  • Reduced monitoring intervals")
+        print("  • Optimized data retention")
         print("="*60)
 
-        app.run(debug=True, host='0.0.0.0', port=5000)
+        app.run(debug=False, host='0.0.0.0', port=5000)  # Disabled debug mode for performance
 
     except KeyboardInterrupt:
         print("\n🛑 Shutting down monitoring system...")
